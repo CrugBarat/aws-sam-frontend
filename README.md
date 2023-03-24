@@ -2,7 +2,7 @@
 
 ## Description
 
-This package allows you to deploy any frontend personal project that uses JS. Just drop the directories/files into the frontend package of this mono repo and you can then deploy it directly to AWS using Cloudfront and S3 with one command. The frontend app must have a package.json and build script. It's as simple as that. The resulting stack will be given a unique url that you can add to your CV, LinkedIn profile or share directly with prospective employers to showcase your skills.
+This package allows you to deploy any frontend personal project that uses a JS framework. Just drop the directories/files into the frontend package of this mono repo and you can then deploy it directly to AWS using Cloudfront and S3 with one command. The frontend app must have a package.json and build script. It's as simple as that. The resulting stack will be given a unique url that you can add to your CV, LinkedIn profile or share directly with prospective employers to showcase your skills.
 
 Why use this over alternatives like Heroku? Well it's fully customisable, it can extended to add apis/dbs and gives you full control. It can also be a great tool to upskill yourself on cloud services and client/server infrastructure.
 
