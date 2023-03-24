@@ -38,8 +38,10 @@ aws configure
 make lazyLoad ENV=<add an environment name>
 ```
 
-NB: The ENV param allows you to deploy an infinite number of versions of your project as long as you change this flag. Common examples include ENV=dev, ENV=int, ENV=prod or if you're fancy ENV=banana. This flag just ensures that AWS resources have a unique name, which is one of their requirements.
+The ENV param allows you to deploy an infinite number of versions of your project as long as you change this flag. Common examples include ENV=dev, ENV=int, ENV=prod or if you're fancy ENV=banana. This flag just ensures that AWS resources have a unique name, which is one of their requirements.
 
-BEEP BOP BOOP - you're personal project should now have been deployed and opened in your browser with a public url. Deploy as many frontend projects as your heart desires by completing step 5 and 6 - rinse and repeat.
+### BEEP BOP BOOP 
+
+You're personal project should now have been deployed and opened in your browser with a public url. Deploy as many frontend projects as your heart desires by completing step 5 and 6 - rinse and repeat.
 
 PSSSST - you know what else is really neat? This package can be used to create production sites. Just add Route53 which will then point to your custom domain.
