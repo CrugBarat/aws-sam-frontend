@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  project-name SAM template
+
+Globals:
+  Api:
+    EndpointConfiguration: REGIONAL
+    Cors: "'*'"
+
+Parameters:
+  BucketName:
+    Type: String
+    Default: project-name-s3-site-bucket
+  EnvironmentName:
+    Type: String
+    Default: dev
+
+Resources:
+  Distribution:
+    Type: AWS::Serverless::Application
+    Properties:
+      Location: ./templates/distribution-template.yaml
+      Parameters:
+        AWSStackName: !Sub ${AWS::StackName}
+        BucketName: !Ref BucketName
+        EnvironmentName: !Ref EnvironmentName

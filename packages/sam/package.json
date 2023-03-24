@@ -1,0 +1,13 @@
+{
+  "name": "aws-sam",
+  "version": "0.1.0",
+  "author": "Craig Barratt",
+  "description": "SAM",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"no tests\"",
+    "test:ci": "echo \"no tests\"",
+    "build": "echo \"no build\"",
+    "lint:fix": "echo \"no lint\""
+  }
+}
