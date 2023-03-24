@@ -32,7 +32,7 @@ aws configure
 
 5. Copy all the files and directories within your personal project's root folder and add them to the [frontend](./packages/frontend) package of this repo.
 
-6. In the root of this folder, run the following:
+6. In the root of this repo, run the following:
 
 ```
 make lazyLoad ENV=<add an environment name>
