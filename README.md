@@ -22,7 +22,7 @@ Why use this over alternatives like Heroku? Well it's fully customisable, it can
 
 2. Once your account is setup. Navigate to 'Security Credentials' to [create an access key](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html). This access key will allow your shell to read/write to AWS. Make a note of these as they will be used in step 3. Remember to keep these safe and not to share these publicly in VCS like github.
 
-3. Use AWS CLI to configure your shell by running the command below. It will ask you to enter the access key id and security key id that you created in step 2. It will also ask for region and output. These will be 'eu-west-2' and 'json' respectively. Note: these are stored in your root directory in an .aws folder.
+3. Use AWS CLI to configure your shell by running the command below. It will ask you to enter the access key id and security key id that you created in step 2. It will also ask for region and output. These will be 'eu-west-2' and 'json' respectively. Note: these are stored in your root directory in an .aws folder if you ever need to find them.
 
 ```
 aws configure
