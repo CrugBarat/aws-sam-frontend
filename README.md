@@ -42,6 +42,6 @@ The ENV param allows you to deploy an infinite number of versions of your projec
 
 ### BEEP BOP BOOP 
 
-You're personal project should now have been deployed and opened in your browser with a public url. Deploy as many frontend projects as your heart desires by completing step 5 and 6 - rinse and repeat.
+You're personal project should now have been deployed and opened in your browser with a public url. Deploy as many frontend projects as your heart desires by completing step 4, 5 and 6 - rinse and repeat.
 
 PSSSST - you know what else is really neat? This package can be used to create production sites. Just add Route53 which will then point to your custom domain.
