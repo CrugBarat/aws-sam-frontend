@@ -16,6 +16,7 @@ Why use this over alternatives like Heroku? Well it's fully customisable, it can
 - [AWS SAM CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-mac.html)
 - [An AWS account](https://aws.amazon.com/)
 
+
 ### Steps
 
 1. Sign up for AWS and [set a budget limit with alerts](https://acloudguru.com/videos/acg-fundamentals/how-to-set-up-an-aws-billing-and-budget-alert?utm_source=google&utm_medium=paid-search&utm_campaign=cloud-transformation&utm_term=ssi-global-acg-core-dsa&utm_content=free-trial&gclid=Cj0KCQjwlPWgBhDHARIsAH2xdNc1B2rjJN2i4mgEEG6hLWxB21yhBJuF7rsHKoqzw-TFMhUdGL9dv3kaAh9-EALw_wcB). Hosting your demo will be free as you shouldn't be expecting any significant traffic and will comfortably fall within Free Tier usage. A budget prevents any unexpected charges if there is a spike in traffic. Be safe and set a budget limit!
@@ -40,11 +41,13 @@ make lazyLoad ENV=<add an environment name>
 
 The ENV param allows you to deploy an infinite number of versions of your project as long as you change this flag. Common examples include ENV=dev, ENV=int, ENV=prod or if you're fancy ENV=banana. This flag just ensures that AWS resources have a unique name, which is one of their requirements.
 
+
 ### BEEP BOP BOOP 
 
 You're personal project should now have been deployed and opened in your browser with a public url. Deploy as many frontend projects as your heart desires by completing step 4, 5 and 6 - rinse and repeat.
 
 PSSSST - you know what else is really neat? This package can be used to create production sites. Just add Route53 which will then point to your custom domain.
+
 
 ### Making changes
 
