@@ -51,7 +51,7 @@ PSSSST - you know what else is really neat? This package can be used to create p
 
 ### Making changes
 
-If you have already completed the above steps and your frontend is deployed but you want to make changes then you can run one of the commands below. Onmce you are happy with your local frontend changes, run either:
+If you have already completed the above steps and your frontend is deployed but you want to make changes then you can run one of the commands below. Once you are happy with your local frontend changes, run either:
 
 ```
 make lazyLoad ENV=<same environment name as step 6>
